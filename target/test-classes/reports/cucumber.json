@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-19T06:55:19.340Z",
+        "line": 2,
+        "name": "To Validate Login page",
+        "description": "",
+        "id": "to-validate-the-face-book;to-validate-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1726200,
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "user enter the username and password",
+            "match": {
+              "location": "StepDef.user_enter_the_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user enter the valid the crdentials",
+            "match": {
+              "location": "StepDef.user_enter_the_valid_the_crdentials()"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bala",
+                  "java"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user verify successfully",
+            "match": {
+              "location": "StepDef.user_verify_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-19T06:55:19.397Z",
+        "line": 10,
+        "name": "To Validate Login page for invalid user",
+        "description": "",
+        "id": "to-validate-the-face-book;to-validate-login-page-for-invalid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22600,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enter the username and password",
+            "match": {
+              "location": "StepDef.user_enter_the_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52600,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user enter the valid the crdentials",
+            "match": {
+              "location": "StepDef.user_enter_the_valid_the_crdentials()"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "aruna",
+                  "aruna0425"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user verify successfully",
+            "match": {
+              "location": "StepDef.user_verify_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the face book",
+    "description": "",
+    "id": "to-validate-the-face-book",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features1/login.feature",
+    "tags": []
+  }
+]
